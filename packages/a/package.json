@@ -1,0 +1,24 @@
+{
+  "name": "testing-changesets-2025-a",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harrysolovay/testing-changesets-2025.git",
+    "directory": "packages/a"
+  },
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "dependencies": {
+    "testing-changesets-2025-b": "workspace:*",
+    "testing-changesets-2025-main": "workspace:*"
+  }
+}

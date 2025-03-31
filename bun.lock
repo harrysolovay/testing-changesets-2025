@@ -1,0 +1,42 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "testing-changesets-2025",
+    },
+    "ignore/c": {
+      "name": "testing-changesets-2025-c",
+      "dependencies": {
+        "testing-changesets-2025-main": "workspace:*",
+      },
+    },
+    "main": {
+      "name": "testing-changesets-2025-main",
+      "version": "0.1.0",
+    },
+    "packages/a": {
+      "name": "testing-changesets-2025-a",
+      "version": "0.1.0",
+      "dependencies": {
+        "testing-changesets-2025-b": "workspace:*",
+        "testing-changesets-2025-main": "workspace:*",
+      },
+    },
+    "packages/b": {
+      "name": "testing-changesets-2025-b",
+      "version": "0.1.0",
+      "dependencies": {
+        "testing-changesets-2025-main": "workspace:*",
+      },
+    },
+  },
+  "packages": {
+    "testing-changesets-2025-a": ["testing-changesets-2025-a@workspace:packages/a"],
+
+    "testing-changesets-2025-b": ["testing-changesets-2025-b@workspace:packages/b"],
+
+    "testing-changesets-2025-c": ["testing-changesets-2025-c@workspace:ignore/c"],
+
+    "testing-changesets-2025-main": ["testing-changesets-2025-main@workspace:main"],
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "testing-changesets-2025",
+  "type": "module",
+  "workspaces": ["main", "packages/*", "ignore/*"],
+  "private": true
+}
