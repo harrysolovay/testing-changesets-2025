@@ -1,5 +1,12 @@
 # testing-changesets-2025-main
 
+## 1.1.0
+
+### Minor Changes
+
+- 5b70b7f: Another test of how changesets works
+- 09755eb: Another change here
+
 ## 1.0.0
 
 ### Major Changes
