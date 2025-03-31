@@ -1,5 +1,13 @@
 # testing-changesets-2025-b
 
+## 0.1.3
+
+### Patch Changes
+
+- 95af869: Adding some patch changes
+- Updated dependencies [95af869]
+  - testing-changesets-2025-main@1.1.1
+
 ## 0.1.2
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # testing-changesets-2025-main
 
+## 1.1.1
+
+### Patch Changes
+
+- 95af869: Adding some patch changes
+
 ## 1.1.0
 
 ### Minor Changes
