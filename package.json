@@ -2,5 +2,8 @@
   "name": "testing-changesets-2025",
   "type": "module",
   "workspaces": ["main", "packages/*", "ignore/*"],
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1"
+  }
 }
