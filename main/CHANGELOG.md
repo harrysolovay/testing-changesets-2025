@@ -1,5 +1,11 @@
 # testing-changesets-2025-main
 
+## 1.1.2
+
+### Patch Changes
+
+- be9e025: Removing permissions
+
 ## 1.1.1
 
 ### Patch Changes
