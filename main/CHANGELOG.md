@@ -1,5 +1,11 @@
 # testing-changesets-2025-main
 
+## 2.0.0
+
+### Major Changes
+
+- d5b134e: Testing prereleases
+
 ## 1.1.2
 
 ### Patch Changes
