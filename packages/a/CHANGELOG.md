@@ -1,5 +1,17 @@
 # testing-changesets-2025-a
 
+## 0.3.0
+
+### Minor Changes
+
+- d5b134e: Testing prereleases
+
+### Patch Changes
+
+- Updated dependencies [d5b134e]
+  - testing-changesets-2025-main@2.0.0
+  - testing-changesets-2025-b@0.1.4
+
 ## 0.2.0
 
 ### Minor Changes
